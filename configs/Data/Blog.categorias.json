@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "682579f47740d3ba487e6627"
+  },
+  "categoria": "Taller",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-15T05:21:56.454Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-15T05:21:56.454Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68257a7c7740d3ba487e662d"
+  },
+  "categoria": "Práctica Supervisada",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-15T05:24:12.693Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-15T06:31:16.942Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68259974261ba80480d7b20d"
+  },
+  "categoria": "Tecnología",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-15T07:36:20.521Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-15T07:36:20.521Z"
+  }
+}]

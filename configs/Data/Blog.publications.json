@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6825916c638ceaf6b093f855"
+  },
+  "titulo": "Examen Final",
+  "descripcion": "¿Cuál proyecto prefieren?",
+  "categoria": {
+    "$oid": "682579f47740d3ba487e6627"
+  },
+  "createdAt": {
+    "$date": "2025-05-15T07:02:04.174Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-15T07:02:04.174Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682599c7261ba80480d7b215"
+  },
+  "titulo": "Futbol",
+  "descripcion": "¿Quien gana El mundial del 2026?",
+  "categoria": {
+    "$oid": "68257a7c7740d3ba487e662d"
+  },
+  "createdAt": {
+    "$date": "2025-05-15T07:37:43.692Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-15T07:37:43.692Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68259aa2b2fe2678eccf7590"
+  },
+  "titulo": "Universidad",
+  "descripcion": "¿Cual es mejor la UVG o la USC?",
+  "categoria": {
+    "$oid": "68259974261ba80480d7b20d"
+  },
+  "createdAt": {
+    "$date": "2025-05-15T07:41:22.136Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-15T07:52:43.072Z"
+  }
+}]

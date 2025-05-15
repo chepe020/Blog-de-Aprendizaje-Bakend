@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "68259e9fb2fe2678eccf75b4"
+  },
+  "nombre": "Chepe",
+  "contenido": "Queda mejor el de hoteles",
+  "publicacion": {
+    "$oid": "6825916c638ceaf6b093f855"
+  },
+  "createdAt": {
+    "$date": "2025-05-15T07:58:23.486Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-15T07:58:23.486Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68259f08b2fe2678eccf75b8"
+  },
+  "nombre": "jeremy",
+  "contenido": "Queda mejor el de hoteles",
+  "publicacion": {
+    "$oid": "6825916c638ceaf6b093f855"
+  },
+  "createdAt": {
+    "$date": "2025-05-15T08:00:08.126Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-15T08:00:08.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68259f0eb2fe2678eccf75bb"
+  },
+  "nombre": "reyes",
+  "contenido": "Queda mejor el de hoteles",
+  "publicacion": {
+    "$oid": "6825916c638ceaf6b093f855"
+  },
+  "createdAt": {
+    "$date": "2025-05-15T08:00:14.011Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-15T08:00:14.011Z"
+  }
+}]
