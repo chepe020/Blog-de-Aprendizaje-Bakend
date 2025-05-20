@@ -61,3 +61,61 @@ export const getCommentsByPublication = async (req, res) => {
         })
     }
 }
+
+export const deleteComment = async (req, res) => {
+    const { id } = req.params;
+    try {
+        const comentarioEliminar = await Comentario.findById(id);
+        if (!comentarioEliminar) {
+            return res.status(404).json({
+                success: false,
+                msg: "Comentario no encontrado"
+            });
+        }
+
+        await Comentario.findByIdAndDelete(id);
+
+        res.status(200).json({
+            success: true,
+            msg: "Comentario eliminado con éxito"
+        });
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            msg: "Error al eliminar el comentario",
+            error: error.message || error
+        });
+    }
+};
+
+
+export const updateComentario = async (req, res) => {
+    const { id } = req.params;
+    const { nombre, contenido } = req.body;
+
+    try {
+        const comentario = await Comentario.findById(id);
+        if (!comentario) {
+            return res.status(404).json({
+                success: false,
+                msg: "Comentario no encontrado"
+            })
+        }
+
+        comentario.nombre = nombre;
+        comentario.contenido = contenido;
+        await comentario.save();
+
+        res.status(200).json({
+            success: true,
+            msg: "Comentario actualizado con éxito",
+            comentario
+        });
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            msg: "Error al actualizar el comentario",
+            error: error.message || error
+        })
+    }
+}
